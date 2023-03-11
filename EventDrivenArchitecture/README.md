@@ -26,4 +26,9 @@ You can now implement the IEventMessageBroker interface using these two classes 
 
 [EventMessageBroker](./Code/EventMessageBroker.cs)
 
+Other things to add to the broker utility:
 
+* Validation 
+* Durable publisher (deal with errors)
+* Enforce naming conventions
+* Different version of an event.
